@@ -1,0 +1,37 @@
+body {
+  background: url("bg-pokedex.webp") center/cover fixed;
+  height: 100vh;
+}
+
+.filter-container {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  cursor: pointer;
+  position: relative;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card h2 {
+  visibility: hidden;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
